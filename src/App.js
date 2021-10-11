@@ -30,10 +30,10 @@ function App() {
     <div className="bg-black">
       <div>
         {/* <h1 className='text-gray-100 opacity-0 hover:opacity-100'>Romantic Comedy</h1> */}
-        <div className='bg-navbar bg-cover fixed z-10 h-20'>
-          <button className='ml-3 mt-1'><img src={Back} alt="back" width='20px' height='20px' /></button>
+        <div className='bg-navbar bg-cover fixed z-10 h-20 w-screen'>
+          <button className='ml-3 mt-2.5'><img src={Back} alt="back" width='25px' height='25px' /></button>
           <input type="text" onChange={(e) => setSearch(e.target.value)} className="h-7 w-76 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none bg-opacity-0" placeholder="Search ..." />
-          <button className='ml-14 mt-2 pr-2' ><img src={searchIcon} alt="search" width='20px' height='20px' /></button>
+          <button className='mt-2.5 float-right mr-3' ><img src={searchIcon} alt="search" width='25px' height='25px' /></button>
         </div>
       </div>
       <Home books={books} loading={loading} search={search} />
