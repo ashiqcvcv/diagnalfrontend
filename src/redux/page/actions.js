@@ -1,6 +1,5 @@
 import {
-  PAGE_SCROLL,
-  PAGE_END
+  PAGE_SCROLL
 } from "./types";
 
 export const pageIncrement = () => {

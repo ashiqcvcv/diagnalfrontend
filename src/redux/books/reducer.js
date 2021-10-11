@@ -1,8 +1,7 @@
 import {
   GET_BOOKS_REQUEST,
   GET_BOOKS_SUCCESS,
-  GET_BOOKS_FAILURE,
-  ADD_BOOKS_REQUEST
+  GET_BOOKS_FAILURE
 } from "./types";
 
 const initialState = {
