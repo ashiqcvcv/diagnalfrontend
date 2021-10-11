@@ -17,7 +17,7 @@ export const Home = ({ books, search }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="max-w-4xl py-5 px-3 sm:py-24 sm:px-6">
+    <div className="max-w-4xl py-5 px-2 sm:py-24 sm:px-6">
 
       <div className="grid grid-cols-3 gap-y-2 gap-x-3 sm:grid-cols-2 overflow-auto">
         {(books || [])
@@ -37,7 +37,7 @@ export const Home = ({ books, search }) => {
             </div>
             <div className="flex justify-between truncate">
               <div>
-                <p className="text-sm text-gray-500">{cover.name}</p>
+                <p className="text-sm text-gray-500 mt-0.5">{cover.name}</p>
               </div>
             </div>
           </div>
