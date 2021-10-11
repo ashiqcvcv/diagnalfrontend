@@ -27,7 +27,7 @@ export const Home = ({ books, search }) => {
         })
         .map((cover, i) => (
           <div key={i} className="group relative" ref={i === books.length - 1 ? elementRef : null}>
-            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1">
+            <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 mt-20">
               <img
                 src={imageUrl(cover['poster-image'])}
                 onError={(e)=>{e.target.onerror = null; e.target.src=defaultImage}}
